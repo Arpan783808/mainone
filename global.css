@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  /* fonts */
+  --font-abeezee: ABeeZee;
+  --font-jockey-one: "Jockey One";
+  --font-jomhuria: Jomhuria;
+
+  /* font sizes */
+  --font-size-11xl: 30px;
+  --font-size-6xl: 25px;
+  --font-size-16xl: 35px;
+
+  /* Colors */
+  --color-white: #fff;
+  --color-black: #000;
+  --color-mediumblue: #1920c9;
+  --color-darkblue: #1627bd;
+  --color-gray-100: #0c0c0c;
+  --color-snow: #fffcfc;
+
+  /* Border radiuses */
+  --br-xl: 20px;
+  --br-11xl: 30px;
+  --br-21xl: 40px;
+  --br-mini: 15px;
+}

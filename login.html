@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./login.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=ABeeZee:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Jockey One:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Jomhuria:wght@400&display=swap"
+    />
+  </head>
+  <body>
+    <div class="login">
+      <div class="log-in1">LOG IN</div>
+      <div class="email-username">Email /username</div>
+      <div class="password1">password</div>
+      <div class="dons-have-an">Don’s have an accont</div>
+      <button class="sign-up2" id="signUp">sign up</button>
+      <div class="home1">HOME</div>
+      <button class="login-child" id="rectangleButton"></button>
+      <button class="login-item" id="rectangleButton1"></button>
+      <div class="login1">LOGIN</div>
+      <img class="back-arrow-icon" alt="" src="./public/back-arrow.svg" />
+
+      <img class="login-inner" alt="" src="./public/ellipse-3@2x.png" />
+
+      <input class="login-child1" type="email" />
+
+      <input class="login-child2" type="password" />
+
+      <div class="home2">HOME</div>
+    </div>
+
+    <script>
+      var signUp = document.getElementById("signUp");
+      if (signUp) {
+        signUp.addEventListener("click", function (e) {
+          window.location.href = "./desktop.html";
+        });
+      }
+      
+      var rectangleButton = document.getElementById("rectangleButton");
+      if (rectangleButton) {
+        rectangleButton.addEventListener("click", function (e) {
+          window.location.href = "./after-login.html";
+        });
+      }
+      
+      var rectangleButton1 = document.getElementById("rectangleButton1");
+      if (rectangleButton1) {
+        rectangleButton1.addEventListener("click", function (e) {
+          window.location.href = "./desktop1.html";
+        });
+      }
+      </script>
+  </body>
+</html>

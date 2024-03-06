@@ -1,0 +1,155 @@
+.home {
+  position: absolute;
+  top: 37px;
+  left: 82px;
+  font-size: var(--font-size-11xl);
+  font-family: var(--font-abeezee);
+  color: var(--color-white);
+  text-align: center;
+  display: inline-block;
+  width: 232px;
+  height: 52px;
+}
+.image-2-icon {
+  position: absolute;
+  top: 14px;
+  left: 72px;
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+}
+.home-parent {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: #261d1d;
+  position: absolute;
+  top: 67px;
+  left: 30px;
+  border-radius: var(--br-11xl);
+  width: 639px;
+  height: 99px;
+  mix-blend-mode: normal;
+}
+.desktop-5-child {
+  position: absolute;
+  top: 116px;
+  left: 720px;
+  width: 687px;
+  height: 810px;
+  object-fit: cover;
+}
+.sign-up {
+  position: absolute;
+  top: 232px;
+  left: 63px;
+  font-size: var(--font-size-11xl);
+}
+.email,
+.password,
+.username {
+  position: absolute;
+  top: 315px;
+  left: 63px;
+}
+.password,
+.username {
+  top: 437px;
+}
+.password {
+  top: 557px;
+  left: 61px;
+}
+.confirm-password {
+  position: absolute;
+  top: 680px;
+  left: 63px;
+}
+.blank-line {
+  margin: 0;
+}
+.if-you-already-container {
+  position: absolute;
+  top: 878px;
+  left: 63px;
+  font-size: var(--font-size-11xl);
+}
+.desktop-5-item,
+.login-here {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  position: absolute;
+}
+.login-here {
+  background-color: transparent;
+  top: 913px;
+  left: 522px;
+  font-size: var(--font-size-11xl);
+  font-family: var(--font-abeezee);
+  color: var(--color-darkblue);
+  text-align: left;
+  display: inline-block;
+}
+.desktop-5-item {
+  background-color: var(--color-mediumblue);
+  top: 812px;
+  left: 229px;
+  border-radius: var(--br-xl);
+  width: 242px;
+  height: 66px;
+}
+.register {
+  position: absolute;
+  top: 828px;
+  left: 283px;
+  font-size: var(--font-size-11xl);
+  color: var(--color-white);
+}
+.desktop-5-inner {
+  background-color: var(--color-white);
+  top: 365px;
+}
+.desktop-5-child1,
+.desktop-5-inner,
+.rectangle-input {
+  border: 1px solid var(--color-black);
+  outline: 0;
+  position: absolute;
+  left: 61px;
+  box-sizing: border-box;
+  width: 561px;
+  height: 54px;
+}
+.rectangle-input {
+  background-color: var(--color-white);
+  top: 485px;
+}
+.desktop-5-child1 {
+  top: 612px;
+}
+.desktop-5,
+.desktop-5-child1,
+.desktop-5-child2 {
+  background-color: var(--color-white);
+}
+.desktop-5-child2 {
+  border: 1px solid var(--color-black);
+  outline: 0;
+  position: absolute;
+  top: 730px;
+  left: 63px;
+  box-sizing: border-box;
+  width: 561px;
+  height: 54px;
+}
+.desktop-5 {
+  width: 100%;
+  position: relative;
+  height: 1024px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-6xl);
+  color: var(--color-black);
+  font-family: var(--font-abeezee);
+}
